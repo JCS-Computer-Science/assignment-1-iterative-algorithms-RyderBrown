@@ -1,4 +1,16 @@
 function binarySearch(array, searchTerm) {
+	
+	let half = (array / 2)
+
+	for (let i = 0; i < array.length; i++) {
+		if (searchTerm > array.length) {
+			half;
+		}
+	}
+
+
+	
+	
 	/*
 	 ** Check the middle element, if it's higher than the searchTerm
 	 ** then check the element in between the start and the middle, otherwise
