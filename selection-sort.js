@@ -12,7 +12,6 @@ function selectionSort(array) {
 		if (lowest !== i) {
 			[array[i], array[lowest]] = [array[lowest], array[i]]
 		}
-		return array;
 	}
 	
 	/*
